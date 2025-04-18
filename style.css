@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: 'youngSeriff';
+  src: url('fonts/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'para';
+  src: url('Outfit-Light.ttf');
+}
+body {
+  height: 1000px;
+  /* border: 1px solid; */
+  border-radius; 30px;
+  padding: 10px;
+  width: 500px;
+  margin-bottom: 9000px;
+}
+p, li {
+  margin: 0;
+  /* margin-top: 5px; */
+  font-family: para;
+  color: rgb(127, 120, 117);
+}
+.food-pic {
+  height: 200px;
+  width: 500px;
+  border-radius: 8px;
+}
+h1 {
+  font-family: youngSeriff;
+  font-weight: 500px;
+  color: rgb(126, 77, 63);
+}
+h4 {
+  color: rgb(147, 24, 108);
+  margin-left: 20px;
+}
+li {
+  line-height: 25px;
+}
+span {
+  font-weight: bold;
+}
+.second-para {
+  width: 500pxx;
+  margin-bottom: 10px;
+}
+.second-para-edit {
+  font-size: 13px;
+  line-height: 20px;
+}
+.first-heading {
+  width: 480px;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(255, 246, 251);
+}
+.first-list {
+  
+}
+.ingredient {
+  /* background-color: blue; */
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+.instructions {
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+.items {
+  /* margin-top: 15px; */
+  width: 150px;
+  background-color: blue;
+  
+}
+.items-n-gram {
+  margin-top: 35px;
+  background-color: red;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  width: 300px;
+  column-gap: 90px;
+}
+.testing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  line-height: 50px;
+}
+.last-line {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
